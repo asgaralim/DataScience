@@ -17,19 +17,42 @@ float : -87.8
 1. string , 2 Int, 3 float
 
 4. What is an expression made up of? What do all expressions do?
+
+
 5. This assignment statements, like spam = 10. What is the difference between an
 expression and a statement?
+
 6. After running the following code, what does the variable bacon contain?
 bacon = 22
 bacon + 1
 
+Answer : bacon is add with 1 . So it will be 23
+
+
 7. What should the values of the following two terms be?
-&#39;spam&#39; + &#39;spamspam&#39;
-&#39;spam&#39; * 3
+ 'spam' + 'spamspam'
+ Answer : 'spamspamspam'
+
+'spam' * 3
+Answer : 'spamspamspam'
+
 
 8. Why is eggs a valid variable name while 100 is invalid?
 
+The variable cotnains letters and numbers and start with letter. egg is valid , 100 is invalid
+
 9. What three functions can be used to get the integer, floating-point number, or string
 version of a value?
+int (value)
+float(value)
+str(value)
+
+
+
 10. Why does this expression cause an error? How can you fix it?
-&#39;I have eaten &#39; + 99 + &#39; burritos.&#39;
+'I have eaten ' + 99 + ' burritos.'
+
++ is used both for addition and concatenation. The left side data type is string.  in this  it used as concatentation.   
+99 is interger so it causes error. 
+To correct this : encolose 99 in single quatation  or use built in function str(99) to convert to string
+
